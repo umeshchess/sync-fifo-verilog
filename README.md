@@ -12,7 +12,7 @@ A fully-verified 8-bit Synchronous FIFO designed in Verilog HDL and physical imp
 
 ---
 
-## 🎨 Chip Laayout
+## 🎨 Chip Layout
 ![Klayout](Fulldesign.png)
 
 ---
@@ -29,6 +29,9 @@ A fully-verified 8-bit Synchronous FIFO designed in Verilog HDL and physical imp
 ![Transistors zoomed layout](Zoomdesign.png)
 
 ---
+Logic Mappings
+![Logic](fifo_schematic.svg)
+
 
 ## 📁 Repository Structure
 ```text
