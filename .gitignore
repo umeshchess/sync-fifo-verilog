@@ -1,0 +1,4 @@
+# Ignore OpenLane execution runs and heavy logs
+runs/
+*.log
+*.tmp

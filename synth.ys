@@ -1,0 +1,21 @@
+# synth.ys
+# 1. Read the RTL design
+read_verilog fifo_sync.v
+
+# 2. Check hierarchy and define the top module
+hierarchy -check -top fifo_sync
+
+# 3. Perform high-level synthesis
+synth -top fifo_sync
+
+# 4. Map flip-flops to the 45nm library
+dfflibmap -liberty NangateOpenCellLibrary_typical.lib
+
+# 5. Map combinatorial logic to the 45nm library
+abc -liberty NangateOpenCellLibrary_typical.lib
+
+# 6. Clean up unused cells and wires
+clean
+
+# 7. Write out the physical gate-level netlist
+write_verilog fifo_synth.v
