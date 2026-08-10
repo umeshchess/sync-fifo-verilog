@@ -26,7 +26,7 @@ A fully-verified 8-bit Synchronous FIFO designed in Verilog HDL and physical imp
 | **Target Clock Frequency** | 100 MHz (10.0 ns period) |
 | **Setup / Hold Violations** | **0** (Clean Signoff) |
 | **DRC / LVS** | **0 Violations** (Passed) |
-Zoomdesign.png
+![Transistors zoomed layout](Zoomdesign.png)
 
 ---
 
