@@ -77,4 +77,3 @@ abc.history
 # Ignore massive library files and raw binary dumps
 *.lib
 *.png
-(Zoomdesign.png)
