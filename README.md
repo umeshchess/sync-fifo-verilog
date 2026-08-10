@@ -13,7 +13,7 @@ A fully-verified 8-bit Synchronous FIFO designed in Verilog HDL and physical imp
 ---
 
 ## 🎨 Gate-Level Schematic
-![Gate-Level Schematic](fifo_schematic.svg)
+![Gate-Level Schematic](beautiful_fifo.svg)
 
 ---
 
@@ -26,6 +26,7 @@ A fully-verified 8-bit Synchronous FIFO designed in Verilog HDL and physical imp
 | **Target Clock Frequency** | 100 MHz (10.0 ns period) |
 | **Setup / Hold Violations** | **0** (Clean Signoff) |
 | **DRC / LVS** | **0 Violations** (Passed) |
+(Fulldesign.png)
 
 ---
 
@@ -73,3 +74,4 @@ abc.history
 # Ignore massive library files and raw binary dumps
 *.lib
 *.png
+(Zoomdesign.png)
