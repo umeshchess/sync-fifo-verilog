@@ -12,8 +12,8 @@ A fully-verified 8-bit Synchronous FIFO designed in Verilog HDL and physical imp
 
 ---
 
-## 🎨 Gate-Level Schematic
-![Gate-Level Schematic](beautiful_fifo.svg)
+## 🎨 Chip Laayout
+![Klayout](Fulldesign.png)
 
 ---
 
